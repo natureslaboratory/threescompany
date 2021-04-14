@@ -1,0 +1,13 @@
+.c-hero__title-wrapper {
+    z-index: 0;
+    flex-direction: column;
+}
+
+.c-hero__title {
+    margin-bottom: 1.5rem;
+}
+
+.c-hero__subtitle {
+    font-style: italic;
+    opacity: 0.8;
+}
