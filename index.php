@@ -19,7 +19,7 @@
             <a href="/" class="c-banner__logo">
                 <img src="/resources/logos/threescompany.png" class="c-banner__logo-img">
             </a>
-            <div class="c-navigation" data-type="dynamic" data-breakpoint="768">
+            <div class="c-navigation" data-type="dynamic">
                 <ul class="c-navbar">
                     <li class="c-navbar__element">
                         <a href="/" class="c-navbar__link c-navbar__link--hover-invert">Home</a>
