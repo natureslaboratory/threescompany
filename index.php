@@ -35,30 +35,8 @@
     <div class="l-row l-row--centered">
         <div class="col-12 col-md-10 col-sm-12">
             <section class="c-section">
-                <div class="c-section__content l-flow">
-                    <h3>
-                        Our Companies
-                    </h3>
-                    <div class="c-companies">
-                        <a href="/collaborators#jack-barber" class="c-company__logo-wrapper">
-                            <img class="c-company__logo" src="/resources/logos/jack_barber.png" alt="Jack Barber">
-                        </a>
-                        <a href="/collaborators#natures-laboratory" class="c-company__logo-wrapper">
-                            <img class="c-company__logo" src="/resources/logos/NATURES LAB LOGO_no-bg.png" alt="Nature's Laboratory">
-                        </a>
-                        <a href="/collaborators#herbal-apothecary" class="c-company__logo-wrapper">
-                            <img class="c-company__logo" src="/resources/logos/herbal_apothecary.jpg" alt="Herbal Apothecary">
-                        </a>
-                        <a href="/collaborators#sweet-cecilys" class="c-company__logo-wrapper">
-                            <img class="c-company__logo" src="/resources/logos/Sweet-Cecilys-Logo.svg" alt="Sweet Cecily's">
-                        </a>
-                        <a href="/collaborators#bee-vital" class="c-company__logo-wrapper">
-                            <img class="c-company__logo" src="/resources/logos/beevital.png" alt="Bee Vital">
-                        </a>
-                        <a href="/collaborators#bee-arc" class="c-company__logo-wrapper">
-                            <img class="c-company__logo" src="/resources/logos/beearc.jpg" alt="BeeArc">
-                        </a>
-                    </div>
+                <div class="c-section__content l-flow" id="companyIconList">
+                </div>
             </section>
         </div>
     </div>

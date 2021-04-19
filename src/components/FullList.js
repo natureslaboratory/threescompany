@@ -1,6 +1,6 @@
 import React from 'react';
-import Collaborator from './components/Collaborator';
-import collaboratorData from './CollaboratorData';
+import Collaborator from './Collaborator';
+import collaboratorData from '../CollaboratorData';
 
 
 export default class App extends React.Component {
@@ -32,6 +32,17 @@ export default class App extends React.Component {
             }
 
             return false;
+        }).sort((a, b) => {
+            let nameA = a.name.toUpperCase();
+            let nameB = b.name.toUpperCase();
+            if (nameA < nameB) {
+                return -1;
+            }
+            if (nameA > nameB) {
+                return 1;
+            }
+
+            return 0;
         })
         let collaborators = filteredCollaborators.map(cb => {
             return (
@@ -44,28 +55,29 @@ export default class App extends React.Component {
                     economic={cb.economic}
                     social={cb.social}
                     cultural={cb.cultural}
+                    key={cb.name}
                 />
             )
         })
         return (
             <React.Fragment>
-                <div class="c-threes-table__banner">
-                    <h3 class="c-section__title">Current Collaborators</h3>
-                    <form class="c-threes-table__search-form">
-                        <label htmlFor="search" class="c-threes-table__search-label">Search</label>
-                        <input type="search" class="c-threes-table__search-box" id="search" onChange={this.handleChange} value={this.state.search} />
+                <div className="c-threes-table__banner">
+                    <h3 className="c-section__title">Current Collaborators</h3>
+                    <form className="c-threes-table__search-form">
+                        <label htmlFor="search" className="c-threes-table__search-label">Search</label>
+                        <input type="search" className="c-threes-table__search-box" id="search" onChange={this.handleChange} value={this.state.search} />
                     </form>
                 </div>
-                <div class="c-threes-table__table">
-                    <div class="c-threes-table__heading">
+                <div className="c-threes-table__table">
+                    <div className="c-threes-table__heading">
                     </div>
-                    <div class="c-threes-table__heading">
+                    <div className="c-threes-table__heading">
                         Economic
                     </div>
-                    <div class="c-threes-table__heading">
+                    <div className="c-threes-table__heading">
                         Social
                     </div>
-                    <div class="c-threes-table__heading">
+                    <div className="c-threes-table__heading">
                         Cultural/Spiritual
                     </div>
                     <React.Fragment>
