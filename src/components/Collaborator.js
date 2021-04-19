@@ -38,20 +38,20 @@ const Collaborator = props => {
     let formattedName = formatNameForLink(props.name);
 
     return (
-        <React.Fragment>
+        <div class="c-threes-table__row">
             <div className="c-threes-table__company">
                 <a href={`#${formattedName}`} name={formattedName} className="c-threes-table__company-name-link">
-                    <h4 className="c-threes-table__company-name">
+                    <h3 className="c-threes-table__company-name">
                         {props.name}
-                    </h4>
+                    </h3>
                 </a>
                 <div className="c-threes-table__company-info">
-                    <img className="c-threes-table__logo" src={props.logo} alt="Herbal Apothecary" />
                     <div className="c-threes-table__company-details">
                         {email}
                         {website}
                         {phone}
                     </div>
+                    <img className="c-threes-table__logo" src={props.logo} alt="Herbal Apothecary" />
                 </div>
             </div>
             <div className="c-threes-table__cell">
@@ -66,7 +66,7 @@ const Collaborator = props => {
                 <h4 className="c-threes-table__cell-mobile-title">Cultural/Spiritual</h4>
                 {props.cultural}
             </div>
-        </React.Fragment>
+        </div>
     )
 }
 

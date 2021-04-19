@@ -62,23 +62,25 @@ export default class App extends React.Component {
         return (
             <React.Fragment>
                 <div className="c-threes-table__banner">
-                    <h3 className="c-section__title">Current Collaborators</h3>
+                    <h2 className="c-section__title">Current Collaborators</h2>
                     <form onSubmit={(e) => e.preventDefault()} className="c-threes-table__search-form">
                         <label htmlFor="search" className="c-threes-table__search-label">Search</label>
                         <input type="search" className="c-threes-table__search-box" id="search" onChange={this.handleChange} value={this.state.search} />
                     </form>
                 </div>
                 <div className="c-threes-table__table">
-                    <div className="c-threes-table__heading">
-                    </div>
-                    <div className="c-threes-table__heading">
-                        Economic/Environmental
-                    </div>
-                    <div className="c-threes-table__heading">
-                        Social/Community
-                    </div>
-                    <div className="c-threes-table__heading">
-                        Cultural/Spiritual
+                    <div class="c-threes-table__row">
+                        <div className="c-threes-table__heading">
+                        </div>
+                        <div className="c-threes-table__heading">
+                            Economic/Environmental
+                        </div>
+                        <div className="c-threes-table__heading">
+                            Social/Community
+                        </div>
+                        <div className="c-threes-table__heading">
+                            Cultural/Spiritual
+                        </div>
                     </div>
                     <React.Fragment>
                         {collaborators}
