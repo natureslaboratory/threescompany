@@ -88,6 +88,11 @@
     padding-top: 0;
 }
 
+.l-block--theme {
+    background-color: var(--theme);
+    color: white;
+}
+
 .l-block--dark {
     background-color: var(--primary-color);
     color: white;

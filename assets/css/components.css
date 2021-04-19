@@ -1462,6 +1462,7 @@ blockquote {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .c-company__logo {
