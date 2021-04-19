@@ -25,7 +25,7 @@
                         <a href="/" class="c-navbar__link c-navbar__link--hover-invert">Home</a>
                     </li>
                     <li class="c-navbar__element">
-                        <a href="/companies" class="c-navbar__link c-navbar__link--hover-invert">Collaborators</a>
+                        <a href="/collaborators" class="c-navbar__link c-navbar__link--hover-invert">Collaborators</a>
                     </li>
                 </ul>
                 <div class="c-hamburger">
@@ -39,7 +39,7 @@
                             <a href="/" class="c-hamburger__link c-hamburger__link--hover-invert">Home</a>
                         </li>
                         <li class="c-hamburger__element">
-                            <a href="/companies" class="c-hamburger__link c-hamburger__link--hover-invert">Collaborators</a>
+                            <a href="/collaborators" class="c-hamburger__link c-hamburger__link--hover-invert">Collaborators</a>
                         </li>
                     </ul>
                 </div>

@@ -561,6 +561,9 @@
     flex-direction: column;
 }
 
+.c-section__title {
+}
+
 .c-section__content--right {
     align-items: flex-end;
     text-align: right;
@@ -1042,6 +1045,12 @@ blockquote {
 
 .c-threes-table__company-name {
     font-weight: bold;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.c-threes-table__company-name-link {
+    text-decoration: none;
 }
 
 .c-threes-table__company-info {
@@ -1049,7 +1058,7 @@ blockquote {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
@@ -1091,6 +1100,24 @@ blockquote {
     height: auto;
     margin-top: 10px;
     background-color: white;
+}
+
+.c-threes-table__banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.c-threes-table__search-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#companyList {
+    min-height: 70vh;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1418,6 +1445,7 @@ blockquote {
     padding: 1rem;
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.075);
     width: 100%;
+    overflow-x: auto;
 }
 
 .c-company__logo-wrapper {

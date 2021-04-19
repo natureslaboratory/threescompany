@@ -8,6 +8,27 @@
 }
 
 .c-hero__subtitle {
-    font-style: italic;
+    /* font-style: italic; */
     opacity: 0.8;
+    max-width: 30ch;
+}
+
+@media (max-width: 798px) {
+    .c-hero__title {
+        margin-bottom: 0.5rem;
+        line-height: normal;
+    }
+    .c-hero__subtitle {
+        font-size: var(--size-500);
+        line-height: normal;
+    }
+}
+
+@media (max-width: 350px) {
+    .c-hero__title {
+        margin-bottom: 0;
+    }
+    .c-hero__subtitle {
+        font-size: var(--size-400);
+    }
 }
