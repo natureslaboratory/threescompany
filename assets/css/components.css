@@ -1153,7 +1153,7 @@ blockquote {
     }
 
     .c-threes-table__search-form {
-        background-color: #fbf7ff;
+        background-color: var(--light-grey);
         width: 100%;
         padding: 1.3rem;
         justify-content: center;
