@@ -63,7 +63,7 @@ export default class App extends React.Component {
             <React.Fragment>
                 <div className="c-threes-table__banner">
                     <h3 className="c-section__title">Current Collaborators</h3>
-                    <form className="c-threes-table__search-form">
+                    <form onSubmit={(e) => e.preventDefault()} className="c-threes-table__search-form">
                         <label htmlFor="search" className="c-threes-table__search-label">Search</label>
                         <input type="search" className="c-threes-table__search-box" id="search" onChange={this.handleChange} value={this.state.search} />
                     </form>
@@ -72,10 +72,10 @@ export default class App extends React.Component {
                     <div className="c-threes-table__heading">
                     </div>
                     <div className="c-threes-table__heading">
-                        Economic
+                        Economic/Environmental
                     </div>
                     <div className="c-threes-table__heading">
-                        Social
+                        Social/Community
                     </div>
                     <div className="c-threes-table__heading">
                         Cultural/Spiritual

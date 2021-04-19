@@ -55,11 +55,11 @@ const Collaborator = props => {
                 </div>
             </div>
             <div className="c-threes-table__cell">
-                <h4 className="c-threes-table__cell-mobile-title">Economic</h4>
+                <h4 className="c-threes-table__cell-mobile-title">Economic/Environmental</h4>
                 {props.economic}
             </div>
             <div className="c-threes-table__cell">
-                <h4 className="c-threes-table__cell-mobile-title">Social</h4>
+                <h4 className="c-threes-table__cell-mobile-title">Social/Community</h4>
                 {props.social}
             </div>
             <div className="c-threes-table__cell">
