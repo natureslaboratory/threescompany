@@ -27,6 +27,15 @@
                     <li class="c-navbar__element">
                         <a href="/collaborators" class="c-navbar__link c-navbar__link--hover-invert">Collaborators</a>
                     </li>
+                    <li class="c-navbar__element">
+                        <a href="/how-it-works" class="c-navbar__link c-navbar__link--hover-invert">How It Works</a>
+                    </li>
+                    <li class="c-navbar__element">
+                        <a href="/toolkit" class="c-navbar__link c-navbar__link--hover-invert">Toolkit</a>
+                    </li>
+                    <li class="c-navbar__element">
+                        <a href="/get-involved" class="c-navbar__link c-navbar__link--hover-invert">Get Involved</a>
+                    </li>
                 </ul>
                 <div class="c-hamburger hide">
                     <button class="c-hamburger__button">
@@ -42,8 +51,18 @@
                         <li class="c-hamburger__element">
                             <a href="/collaborators" class="c-hamburger__link c-hamburger__link--hover-invert">Collaborators</a>
                         </li>
+                        <li class="c-hamburger__element">
+                            <a href="/how-it-works" class="c-hamburger__link c-hamburger__link--hover-invert">How It Works</a>
+                        </li>
+                        <li class="c-hamburger__element">
+                            <a href="/toolkit" class="c-hamburger__link c-hamburger__link--hover-invert">Toolkit</a>
+                        </li>
+                        <li class="c-hamburger__element">
+                            <a href="/get-involved" class="c-hamburger__link c-hamburger__link--hover-invert">Get Involved</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
+    <main>

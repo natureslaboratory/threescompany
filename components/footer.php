@@ -1,3 +1,4 @@
+</main>
 <footer class="c-footer">
         <div class="l-restrict">
             &#169; 2021
