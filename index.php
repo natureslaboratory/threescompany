@@ -5,7 +5,7 @@
                 Threes Company
             </h1>
             <h3 class="c-hero__subtitle">
-                Social - Cultural - Economic
+                Building healthier organisations - socially, culturally and economically.
             </h3>
         </div>
     </header>
