@@ -22,7 +22,7 @@ export default class App extends React.Component {
             let values = Object.values(d);
             let contains = false;
             values.forEach(value => {
-                if (value.includes(this.state.search)) {
+                if (value.toUpperCase().includes(this.state.search.toUpperCase())) {
                     contains = true;
                 }
             })
