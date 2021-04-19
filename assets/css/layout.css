@@ -1,5 +1,16 @@
 /* Layout */
 
+.l-visually-hidden {
+    border: 0;
+    clip-path: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; 
+}
+
 .l-wrap {
     /* max-width: 1280px; */
     padding: 0 var(--side-padding) 0 var(--side-padding);

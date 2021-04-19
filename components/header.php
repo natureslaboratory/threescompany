@@ -17,7 +17,7 @@
     <div class="l-wrap l-wrap--bg-secondary l-sticky-top l-border-bottom-grey">
         <nav class="l-restrict c-banner">
             <a href="/" class="c-banner__logo">
-                <img src="/resources/logos/threescompany.png" class="c-banner__logo-img">
+                <img src="/resources/logos/threescompany.png" class="c-banner__logo-img" alt="Threes Company Logo">
             </a>
             <div class="c-navigation" data-type="dynamic">
                 <ul class="c-navbar">
@@ -30,6 +30,7 @@
                 </ul>
                 <div class="c-hamburger hide">
                     <button class="c-hamburger__button">
+                        <div class="l-visually-hidden">Menu</div>
                         <div class="c-hamburger__line"></div>
                         <div class="c-hamburger__line"></div>
                         <div class="c-hamburger__line"></div>
