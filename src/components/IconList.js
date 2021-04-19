@@ -16,7 +16,7 @@ export default class IconList extends React.Component {
         return (
             <React.Fragment>
                 <h3>
-                    Our Companies
+                    Our Collaborators
                 </h3>
                 <div className="c-companies">
                     {collaborators}
