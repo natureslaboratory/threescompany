@@ -7,7 +7,7 @@ module.exports = {
         path: path.resolve(__dirname, "assets", "js")
     },
     watch: true,
-    mode: "development",
+    mode: "production",
     module: {
         rules: [
             { 
