@@ -28,7 +28,7 @@
                         <a href="/collaborators" class="c-navbar__link c-navbar__link--hover-invert">Collaborators</a>
                     </li>
                 </ul>
-                <div class="c-hamburger">
+                <div class="c-hamburger hide">
                     <button class="c-hamburger__button">
                         <div class="c-hamburger__line"></div>
                         <div class="c-hamburger__line"></div>
