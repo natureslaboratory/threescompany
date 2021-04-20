@@ -199,7 +199,7 @@ export default
                         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
         },
         {
-            name: "Apiceutical Research Center",
+            name: "BeeArc",
             logo: "/resources/logos/beearc.jpg",
             email: "lucy.kaya@beearc.com",
             phone: "01947603456",
