@@ -27,7 +27,7 @@
             </section>
         </div>
         <div class="col-12 col-md-3">
-            <img class="c-image" src="/resources/logos/THREES COMPANY LOGO.png" alt="Threes Company">
+            <img class="c-image" src="/resources/logos/threes_no_tagline.png" alt="Threes Company">
         </div>
     </div>
 </div>
