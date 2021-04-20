@@ -1067,6 +1067,8 @@ blockquote {
 .c-threes-table__detail {
     font-size: var(--size-400);
     font-weight: normal;
+    display: flex;
+    align-items: center;
 }
 
 .c-threes-table__heading {

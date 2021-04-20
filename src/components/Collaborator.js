@@ -47,8 +47,8 @@ const Collaborator = props => {
                 </a>
                 <div className="c-threes-table__company-info">
                     <div className="c-threes-table__company-details">
-                        {email}
                         {website}
+                        {email}
                         {phone}
                     </div>
                     <img className="c-threes-table__logo" src={props.logo} alt="Herbal Apothecary" />
