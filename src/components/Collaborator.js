@@ -3,6 +3,8 @@ import {trimURL, formatNameForLink} from '../helperFunctions';
 
 const Collaborator = props => {
 
+    console.log(props);
+
     let trimmedWebsite = trimURL(props.website);
 
     let phone;
@@ -56,15 +58,15 @@ const Collaborator = props => {
             </div>
             <div className="c-threes-table__cell">
                 <h4 className="c-threes-table__cell-mobile-title">Economic/Environmental</h4>
-                {props.economic}
+                <div dangerouslySetInnerHTML={{ __html: props.economic}} />
             </div>
             <div className="c-threes-table__cell">
                 <h4 className="c-threes-table__cell-mobile-title">Social/Community</h4>
-                {props.social}
+                <div dangerouslySetInnerHTML={{ __html: props.social }} />
             </div>
             <div className="c-threes-table__cell">
                 <h4 className="c-threes-table__cell-mobile-title">Cultural/Spiritual</h4>
-                {props.cultural}
+                <div dangerouslySetInnerHTML={{ __html:props.cultural }} />
             </div>
         </div>
     )

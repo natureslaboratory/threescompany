@@ -45,19 +45,21 @@ export default class App extends React.Component {
             return 0;
         })
         let collaborators = filteredCollaborators.map(cb => {
-            return (
-                <Collaborator
-                    name={cb.name}
-                    logo={cb.logo}
-                    email={cb.email}
-                    phone={cb.phone}
-                    website={cb.website}
-                    economic={cb.economic}
-                    social={cb.social}
-                    cultural={cb.cultural}
-                    key={cb.name}
-                />
-            )
+            if (cb.cultural && cb.economic && cb.social) {
+                return (
+                    <Collaborator
+                        name={cb.name}
+                        logo={cb.logo}
+                        email={cb.email}
+                        phone={cb.phone}
+                        website={cb.website}
+                        economic={cb.economic}
+                        social={cb.social}
+                        cultural={cb.cultural}
+                        key={cb.name}
+                    />
+                )
+            }
         })
         return (
             <React.Fragment>

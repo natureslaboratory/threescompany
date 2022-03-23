@@ -1113,15 +1113,22 @@ blockquote {
     min-height: 70vh;
 }
 
+.c-threes-table__cell :is(ul, p) {
+    margin-bottom: 0.6rem;
+}
+
+.c-threes-table__cell ul {
+    list-style-type: disc;
+    margin-left: 1.6rem;
+}
+
 @media screen and (max-width: 1200px) {
     /* .c-threes-table {
         text-align: center;
     } */
     .c-threes-table__row {
-        grid-template-columns: 100%;
-        grid-template-rows: auto repeat(3, 1fr);
-        gap: 1rem;
-        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
     }
     .c-threes-table__table {
         display: flex;
@@ -1144,10 +1151,6 @@ blockquote {
 
     .c-threes-table__row:first-child {
         display: none;
-    }
-
-    .c-threes-table__cell {
-        /* margin-bottom: 2rem; */
     }
 
     .c-threes-table__banner {
